@@ -1,0 +1,232 @@
+html{
+    font-size: 16px;
+    background-color: #000;
+}
+
+
+.head-container{
+background-image: url("images/EAC3.png");
+background-size: contain;
+background-repeat: no-repeat;
+display: flex;
+padding: 0;
+height: 125px;
+width: 100%;
+background-color: #000;
+color: #d9d9d9;
+font-family: Audiowide;
+font-size: 1.75rem;
+justify-content: space-evenly;
+
+
+
+
+}
+
+
+
+#list {
+   
+    align-items: end;
+    font-size: 1rem;
+    line-height:2rem;
+    list-style:none;
+    text-decoration: underline;
+
+}
+
+
+
+.main-container{
+      display: flex;
+      background-image: url("images/123.jpg");
+      height: 500px;
+      width:100%;
+      background-size:cover;
+      flex-direction: column;
+      background-repeat: no-repeat;
+}
+
+
+h2{
+    font-family: Audiowide;
+    font-size: 1.5rem;
+    color: #d9d9d9;
+}
+
+
+.main-container ul {
+
+    font-family: Helvetica;
+    color: #d9d9d9;
+    font-weight: 700;
+    list-style: none;
+}
+
+
+.main-container p{
+
+    font-family: Audiowide;
+    color: #d9d9d9;
+}
+
+
+
+.cards{
+
+    display: flex;
+    height: 600px;
+    width:100%;
+    justify-self: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+   
+   
+    
+    
+}
+.card-container{
+    display: flex;
+    height: 550px;
+    width: 300;
+    background-color: #d9d9d9;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    border: 5px solid #d9d9d9;
+    border-radius: 10px;
+    
+}
+
+
+ .card-container {
+align-items: center;
+text-decoration: underline;
+;
+
+text-wrap: wrap;
+
+
+}
+ 
+    .bottom{
+    display: flex;
+    margin-top: 20px;
+    height:80px;
+    width:100%;
+    background-color: #d9d9d9;
+    color:#000;
+    text-decoration: none;
+    font-size: 0.25;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    justify-self: center;
+   
+  }  
+
+footer a:visited{
+    color: #000;
+    text-decoration: none;
+}
+     
+p{
+    font-size: 1.5rem;
+    color: #000;
+}
+ 
+#paul {
+    border-radius: 50%;
+}
+
+
+#emma {
+    border-radius:50%;
+} 
+
+#bert{
+    border-radius: 50%;
+}
+
+
+h3{
+    font-size: 1.7rem;
+    font-family:  Helvetica, sans-serif;
+    color:#000;
+
+    
+}
+a:hover{
+    cursor: pointer;
+
+}
+
+#list a:visited{
+    color:#d9d9d9;
+}
+
+   
+    
+
+
+@media only screen and (max-width:800px){
+
+    h1{
+        font-size: 1rem;
+    }
+ul{
+
+    font-size: 0.5rem;
+}
+
+.head-container{
+    background-image: none;
+    height:50%;
+    align-items: center;
+    background-color: 
+}
+
+.cards{
+    
+    flex-direction: column;
+    margin-bottom: 10px;
+   
+   
+
+}
+
+.main-container{
+    background-image: none;
+    background-color: dodgerblue;
+
+}
+
+
+    
+.bottom{
+    height:30px;
+    overflow: hidden;
+    
+    
+    
+  
+    
+    ;
+}
+
+}
+
+  
+    
+
+ 
+     
+    
+   
+    
+ 
+
+
+
+
+ 
